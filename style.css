@@ -1,0 +1,173 @@
+.first{
+    display: inline-flex;
+    position: relative;
+    top: 85px;
+    left: 22%;
+    font-size: 50px;
+    font-family: 'Robot', sans-serif;
+}
+.grid-main{
+    display: none;
+}
+.firsts{
+    font-weight: 700;
+}
+.firstss{
+    font-weight: 100;
+    font-size: 50px;
+}
+.material-icons-outlined{
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(253, 72, 0);
+}
+a{
+    text-decoration: none;
+}
+.second{
+    font-size: 40px;
+    position:relative;
+    right: -85%;
+    top: 10px;
+}
+.grid{
+    display: grid;
+    font-family: 'Robot', sans-serif;
+    grid-template-columns: 60px 60px 60px;
+    column-gap: 250px;
+    position: absolute;
+    top: 30%;
+    left: 300px;
+}
+.grid1{
+    border: 2px solid rgb(206, 94, 15);
+    height: 350px;
+    width: 250px;
+    border-radius: 12px;
+    text-align: center;
+    color: orangered;
+    font-size: 24px;
+    line-height: 60px;
+    box-shadow: +3px +1px 12px gray;
+}
+.grid2{
+    border: 2px solid rgb(206, 94, 15);
+    height: 350px;
+    width: 250px;
+    border-radius: 12px;
+    text-align: center;
+    color: orangered;
+    font-size: 24px;
+    line-height: 60px;
+    box-shadow: 3px 1px 8px gray;
+}
+.grid3{
+    border: 2px solid rgb(206, 94, 15);
+    height: 350px;
+    width: 250px;
+    border-radius: 12px;
+    text-align: center;
+    color: orangered;
+    font-size: 24px;
+    line-height: 60px;
+    box-shadow: 3px 1px 8px gray;
+}
+.gs{
+    text-decoration: line-through;
+}
+.col{
+    color: black;
+}
+input{
+    height: 20px;
+    width: 20px;
+}
+@media  (min-width:330px) and (max-width:725px)
+{
+    body{
+        height: 550px;
+        width: 300px;
+        margin: 0;
+    }
+    .first{
+        display: inline;
+        position: relative;
+        top: 38px;
+        left: 4%;
+        font-size: 35px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .firsts{
+        font-weight: 700;
+    }
+    .firstss{
+        font-weight: 100;
+        font-size: 35px;
+    }
+    .material-icons-outlined{
+        font-family: 'Material Icons';
+        font-style: normal;
+        font-size: 40px;
+        color: rgb(253, 72, 0);
+    }
+    .second{
+        font-size: 40px;
+        position:relative;
+        top: 10px;
+        left: 7vw;
+    }
+    .icon{
+        display: none;
+    }
+    .grid{
+        display: none;
+    }
+    .grid-main{
+        display: grid;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 450;
+        grid-template-columns: 60px;
+        row-gap: 20px;
+        position: absolute;
+        top: 25%;
+        left: 20px;
+    }
+    .grid-1{
+        border: 1px solid rgb(179, 116, 0);
+        border-radius: 8px;
+        box-shadow: 3px 3px 5px gray;
+        width: 210px;
+        padding: 12px;
+        text-decoration:none;
+        /* height: 45px; */
+    }
+    .grid-2{
+        border: 1px solid rgb(179, 116, 0);
+        border-radius: 8px;
+        box-shadow: 3px 3px 5px gray;
+        width: 210px;
+        padding: 12px;
+    }
+    .grid-3{
+        border: 1px solid rgb(179, 116, 0);
+        border-radius: 8px;
+        box-shadow: 3px 3px 5px gray;
+        width: 210px;
+        padding: 12px;
+    }
+    .grid-4{
+        border: 1px solid rgb(179, 116, 0);
+        border-radius: 8px;
+        box-shadow: 3px 3px 5px gray;
+        width: 210px;
+        padding: 12px;
+    }
+    .grid-5{
+        border: 1px solid rgb(179, 116, 0);
+        border-radius: 8px;
+        box-shadow: 3px 3px 5px gray;
+        width: 210px;
+        padding: 12px;
+    }
+}
